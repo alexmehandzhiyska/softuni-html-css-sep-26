@@ -1,0 +1,28 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    width: 90%;
+    margin: 1em auto;
+    background-color: #eee;
+    border: 1px solid #D2D2D2;
+    border-radius: 5px;
+    box-shadow: -1px 1px 12px 5px rgba(230,230,230,0.75);
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    gap: 1em;
+}
+
+a {
+    padding: 0.5em 1.15em;
+    text-decoration: none;
+    font-weight: 600;
+    border: 1px solid #D4D4D4;
+    border-radius: 5px;
+    color: #FFA033;
+    background-color: white;
+}
