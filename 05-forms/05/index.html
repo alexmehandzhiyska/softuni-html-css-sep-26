@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+        <link rel="stylesheet" href="./style.css" />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        />
+    </head>
+    <body>
+        <div class="form-wrapper">
+            <h1>Registration</h1>
+
+            <form>
+                <fieldset>
+                    <legend>Login information</legend>
+
+                    <div class="input-group">
+                        <input
+                            type="email"
+                            name="email"
+                            id="email"
+                            placeholder=""
+                        />
+                        <label for="email">Email</label>
+                        <p>example: pen4o.min4ov@gmail.com</p>
+                    </div>
+
+                    <div class="input-group">
+                        <input
+                            type="password"
+                            name="password"
+                            id="password"
+                            placeholder=""
+                        />
+                        <label for="password">Password</label>
+                        <p>
+                            minimum 6 characters, letters and numbers, at least
+                            1 special character
+                        </p>
+                    </div>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Additional information</legend>
+
+                    <div class="input-group date-group">
+                        <label for="birthdate">Date of Birth</label>
+
+                        <input type="date" name="birthdate" id="birthdate" />
+
+                        <p>example: 06.12.2006</p>
+                    </div>
+                </fieldset>
+
+                <input type="submit" value="Login" id="submit-btn" />
+            </form>
+        </div>
+    </body>
+</html>
